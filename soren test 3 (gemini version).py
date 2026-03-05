@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = 'your-secret-key-here'
 
 # Configure Gemini API
-os.environ['GEMINI_API_KEY'] = 'API KEY GOES HERE'
+os.environ['GEMINI_API_KEY'] = 'AIzaSyAo8qT2pjo9MNyrkx_2BozjYVKw5qFuzHQ'
 client = genai.Client()
 
 # List available models
@@ -89,3 +89,4 @@ def delete_session(session_id):
 if __name__ == '__main__':
 
     app.run(debug=True)
+
