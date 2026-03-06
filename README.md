@@ -22,9 +22,6 @@ pip install flask google-genai
 
 ### 2. Set Up Your Google Gemini API Key
 
-If requests ran out for the day you can create your own personal key if needed and import it where the key was in line 11,
-"os.environ['GEMINI_API_KEY'] = 'AIzaSyAo8qT2pjo9MNyrkx_2BozjYVKw5qFuzHQ'" replace the AIzaSy with your own personal one got from google ai studio.
-
 Get your API key from [Google AI Studio](https://aistudio.google.com/apikey)
 
 The app will automatically use the API key in the code. You can also set it as an environment variable:
